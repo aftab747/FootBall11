@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:padding="20dp"
+    android:orientation="vertical"
+    tools:context=".RegisterActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="UserName"
+        android:padding="10dp"
+        android:id="@+id/username"
+        android:background="@drawable/edittext_background"/>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:layout_marginTop="15dp"
+        android:padding="10dp"
+        android:id="@+id/email"
+        android:inputType="textEmailAddress"
+        android:background="@drawable/edittext_background"/>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:layout_marginTop="15dp"
+        android:padding="10dp"
+        android:inputType="textVisiblePassword"
+        android:id="@+id/pasword"
+        android:background="@drawable/edittext_background"/>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:id="@+id/register"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/colorPrimary"
+        android:background="@drawable/button_background"
+        />
+
+    <TextView
+        android:id="@+id/text_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="65dp"
+        android:textAlignment="center"
+        android:text="Already have an account? Log In"
+        android:textSize="18dp"
+        android:textStyle="bold"/>
+
+
+
+
+
+
+</LinearLayout>

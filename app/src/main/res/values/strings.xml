@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">FootBall-Show Your Skills</string>
+    <string name="title_home">Home</string>
+    <string name="title_search">Search</string>
+    <string name="title_message">Messages</string>
+    <string name="title_profile">Profile</string>
+    <string name="app_name_short">FootBall</string>
+</resources>
